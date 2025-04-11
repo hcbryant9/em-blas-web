@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Video</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: 'Courier', monospace;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 20px;
+      font-size: 1.5em;
+      flex-wrap: wrap;
+    }
+
+    .header div {
+      white-space: nowrap;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 1em;
+    }
+
+    .footer a {
+      color: white;
+      text-decoration: none;
+      border-bottom: 1px solid white;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 500px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div>E.M. Blasdell</div>
+    <div>Video</div>
+  </div>
+
+
+  <div class="footer">
+    <a href="explorer.html">← Back to Explorer</a>
+  </div>
+</body>
+</html>

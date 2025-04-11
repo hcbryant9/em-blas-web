@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E.M. Blasdell</title>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: 'Courier', monospace;
+      height: 100vh;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .top-left {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 1.5em;
+    }
+
+    .bottom-left {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+    }
+
+    .bottom-left img {
+      width: 600px;
+      height: auto;
+      cursor: pointer;
+    }
+
+    .top-right {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+    }
+
+    .top-right img {
+      width: 400px;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-left">E.M. Blasdell</div>
+
+  <div class="bottom-left">
+    <a href="explorer.html"> 
+      <img src="assets/images/em_prof2_CV.png" alt="Bottom Left">
+    </a>
+  </div>
+
+  <div class="top-right">
+    <img src="assets/images/hands5.png" alt="Top Right">
+  </div>
+</body>
+</html>

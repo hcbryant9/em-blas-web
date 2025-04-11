@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>E.M. Blasdell – Works</title>
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: 'Courier', monospace;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .top-left {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-size: 1.5em;
+    }
+
+    .item {
+      position: absolute;
+      text-align: center;
+    }
+
+    .item img {
+      width: 280px;
+      height: auto;
+      cursor: pointer;
+      border: 1px solid white;
+    }
+
+    .label {
+      margin-top: 8px;
+      font-size: 1em;
+      color: white;
+      pointer-events: none;
+    }
+
+    /* Random-ish placements */
+    #sound {
+      top: 15%;
+      left: 10%;
+    }
+
+    #installation {
+      top: 40%;
+      left: 40%;
+    }
+
+    #video {
+      bottom: 5%;
+      left: 5%;
+    }
+
+    #cv {
+      top: 60%;
+      right: 10%;
+    }
+    .footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    }
+
+    .footer a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    }
+
+    .footer a:hover {
+    text-decoration: underline;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="top-left">E.M. Blasdell</div>
+
+  <div id="sound" class="item">
+    <a href="sound.html">
+      <img src="assets/images/sound2.png" alt="Sound">
+    </a>
+    <div class="label">sound</div>
+  </div>
+
+  <div id="installation" class="item">
+    <a href="installation.html">
+      <img src="assets/images/installation2.png" alt="Installation">
+    </a>
+    <div class="label">installation</div>
+  </div>
+
+  <div id="video" class="item">
+    <a href="video.html">
+      <img src="assets/images/hands5.png" alt="Video">
+    </a>
+    <div class="label">video</div>
+  </div>
+
+  <div id="cv" class="item">
+    <a href="cv.html">
+      <img src="assets/images/em_prof2_CV.png" alt="CV">
+    </a>
+    <div class="label">cv</div>
+  </div>
+  <div class="footer">
+    <a href="index.html">← Back to Home</a>
+  </div>
+</body>
+</html>
