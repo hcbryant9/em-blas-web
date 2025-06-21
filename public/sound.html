@@ -36,9 +36,11 @@
     }
 
     .content {
+      text-align: center;
       padding: 40px 20px;
       max-width: 700px;
       margin: 0 auto;
+      line-height: 1.6;
     }
 
     .sound-block {
@@ -51,17 +53,8 @@
       font-size: 1.1em;
     }
 
-    audio {
-      width: 100%;
-      background-color: white;
-      border: 2px solid white;
-      border-radius: 4px;
-    }
-
-    audio::-webkit-media-controls-panel {
-      background-color: white;
-      color: black;
-    }
+    
+    
 
     .footer {
       text-align: center;
@@ -78,7 +71,28 @@
     .footer a:hover {
       text-decoration: underline;
     }
+    .video-link img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid white;
+      cursor: pointer;
+    }
 
+    .watch-link {
+      display: inline-block;
+      margin-top: 5px;
+      color: white;
+      text-decoration: none;
+      font-size: 0.85em;
+    }
+    .watch-link-wrapper {
+  text-align: center;
+}
+
+
+    .watch-link:hover {
+      text-decoration: underline;
+    }
     @media (max-width: 500px) {
       .header {
         flex-direction: column;
@@ -94,8 +108,34 @@
     <div>E.M. Blasdell</div>
     <div>Sound</div>
   </div>
+  <div class="content">
+    <a href="https://drive.google.com/file/d/1AFh4j96t6UwOX3FqAzWm2KNZk8w7ts6q/view?usp=sharing" class="video-link">
+      <img src="assets/images/windblows.png" alt="Watch Video">
+    </a>
+<div class = "watch-link-wrapper">
+    <p>
+    	<i>Because The Wind Makes It Go</i> is a four channel sound installation consisting of four speakers, a laptop, and a mixer. The piece uses hydrophone recordings and coded Max devices to create a conversational effect between the four channels. The piece is programmed to vary as parameters such as reverb and panning are automated to change over time. 
+	This piece was inspired by psychologist Jean Piaget and his research into brain development by interviewing young children. His research demonstrates how children tend to personify things they don’t fully understand, such as nature. In one of his interviews, he asks a child why the moon follows them when they go for walks, and their response was, “because the wind makes it go.”
+  </p>
+    <div class="sound-block">
+      <audio id="sound4" controls>
+        <source src="assets/sound/BTWMIGsound2.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    <!-- </div>
+      <a class="watch-link" href="https://drive.google.com/file/d/1AFh4j96t6UwOX3FqAzWm2KNZk8w7ts6q/view?usp=sharing">Watch the Video →</a>
+    </div> -->
+  </div>
+  <div class="content">
+    <a href="https://drive.google.com/file/d/10A6B6W6q5DchOux4IYngkEMTlesgyqCU/view?usp=sharing" class="video-link">
+      <img src="assets/images/live-performace.png" alt="Watch Video">
+    </a>
+    <p>Live Performance At WVCW</p>
+    <a class="watch-link" href="https://drive.google.com/file/d/10A6B6W6q5DchOux4IYngkEMTlesgyqCU/view?usp=sharing">Watch the Video →</a>
+  </div>
 
   <div class="content">
+    <p><center>Other Works</center></p>
     <div class="sound-block">
       <label for="sound1">Cognizance</label>
       <audio id="sound1" controls>
