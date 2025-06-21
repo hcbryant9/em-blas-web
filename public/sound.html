@@ -1,20 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta property="og:title" content="E.M. Blasdell" />
-
   <meta name="description" content="E.M. Blasdell" />
   <meta property="og:description" content="E.M. Blasdell" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/images/em_prof2_CV.png" type="image/png" />
   <link rel="apple-touch-icon" href="assets/images/em_prof2_CV.png" type="image/png" />
-  <meta charset="UTF-8">
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Sound</title>
+
   <style>
     body {
       margin: 0;
@@ -37,6 +33,34 @@
 
     .header div {
       white-space: nowrap;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .sound-block {
+      margin-bottom: 40px;
+    }
+
+    .sound-block label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+
+    audio {
+      width: 100%;
+      background-color: white;
+      border: 2px solid white;
+      border-radius: 4px;
+    }
+
+    audio::-webkit-media-controls-panel {
+      background-color: white;
+      color: black;
     }
 
     .footer {
@@ -65,14 +89,41 @@
   </style>
 </head>
 <body>
+
   <div class="header">
     <div>E.M. Blasdell</div>
     <div>Sound</div>
   </div>
 
+  <div class="content">
+    <div class="sound-block">
+      <label for="sound1">Cognizance</label>
+      <audio id="sound1" controls>
+        <source src="assets/sound/Cognizance.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="sound-block">
+      <label for="sound2">Athabasca</label>
+      <audio id="sound2" controls>
+        <source src="assets/sound/Athabasca.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+
+    <div class="sound-block">
+      <label for="sound3">Egret</label>
+      <audio id="sound3" controls>
+        <source src="assets/sound/Egret.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  </div>
 
   <div class="footer">
-    <a href="idex.html">← Back to Explorer</a>
+    <a href="index.html">← Back to Explorer</a>
   </div>
+
 </body>
 </html>

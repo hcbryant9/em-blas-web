@@ -1,19 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta property="og:title" content="E.M. Blasdell" />
-
   <meta name="description" content="E.M. Blasdell" />
   <meta property="og:description" content="E.M. Blasdell" />
-
-  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="assets/images/em_prof2_CV.png" type="image/png" />
   <link rel="apple-touch-icon" href="assets/images/em_prof2_CV.png" type="image/png" />
-  <meta charset="UTF-8">
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CV</title>
   <style>
     body {
@@ -21,12 +16,11 @@
       background-color: black;
       color: white;
       font-family: 'Courier', monospace;
-      min-height: 100vh;
+      min-height: 200vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
     }
-
     .header {
       display: flex;
       justify-content: space-between;
@@ -34,32 +28,50 @@
       font-size: 1.5em;
       flex-wrap: wrap;
     }
-
-    .header div {
-      white-space: nowrap;
+    .content {
+      max-width: 800px;
+      margin: 30px auto 40px auto;
+      padding: 0 50px;
+      line-height: 1.5;
     }
-
+    .content img {
+      display: block;
+      margin: 0 auto;
+      max-width: 250px;
+      height: auto;
+    }
+    h2 {
+      border-bottom: 1px solid white;
+      padding-bottom: 8px;
+      margin: 25px 0 15px 0;
+      font-weight: normal;
+    }
+    pre {
+      white-space: pre-wrap;
+      font-family: inherit;
+      margin: 0;
+    }
     .footer {
       text-align: center;
       padding: 20px;
       font-size: 1em;
     }
-
     .footer a {
       color: white;
       text-decoration: none;
-      border-bottom: 1px solid white;
+      
     }
-
     .footer a:hover {
       text-decoration: underline;
     }
-
     @media (max-width: 500px) {
       .header {
         flex-direction: column;
         align-items: flex-start;
         gap: 10px;
+      }
+      .content {
+        padding: 0 20px;
       }
     }
   </style>
@@ -70,6 +82,134 @@
     <div>CV</div>
   </div>
 
+  <main class="content">
+    <img src="assets/images/cv-potrait.jpg" alt="E.M. Blasdell portrait" />
+    <br />
+    <pre>
+E.M. Blasdell is an interdisciplinary artist who specializes in video and sound, often brought together through installation. Their work examines sense of place and self through investigations into memory and its effects on personal identity. Blasdell’s work has been exhibited in the Anderson Gallery as well as Artspace Gallery, and has recently produced an additional work in collaboration with Carl Patow of Artspace. In 2022, they received the Excellence in Kinetic Imaging award from the Anderson Gallery in the Undergraduate Juried Exhibition for their sound installation, Cognizance, as well as in 2023, for their film Egret. In addition to their art practice, Blasdell engages in curatorial work and was nominated to participate in Virginia Commonwealth University’s applied curatorial practices program.
+    </pre>
+
+    <section>
+      <h2>Education</h2>
+      <pre>
+Virginia Commonwealth University
+Bachelor of Fine Arts in Kinetic Imaging, Minor in Sound Design
+Class of 2024
+
+Nominated to participate in Applied Curatorial Practices two semester course, 2023-2024
+      </pre>
+    </section>
+
+    <section>
+      <h2>Exhibitions and Projects</h2>
+      <pre>
+There Comes a Time (Curator)
+The Anderson Gallery
+Richmond, Virginia
+2024
+
+VCUarts Senior Capstone Exhibition
+The Anderson Gallery
+Richmond, Virginia
+2024
+
+VCUarts Undergraduate Juried Exhibition
+The Anderson Gallery
+Richmond, Virginia
+2023
+
+Impassage Exhibition
+The Anderson Gallery
+Richmond, Virginia
+2023
+
+Behold the Magnificent Kinetic Imaging Juried Student Work Screening
+Murry N. Depillars Gallery
+Richmond, Virginia
+2023
+
+Untitled Installation
+Collaborative work with Carl Patow of Artspace Gallery
+Richmond, Virginia
+2023
+
+Untitled Installation
+Artspace Gallery
+Richmond, Virginia
+2023
+
+VCUarts Undergraduate Juried Exhibition
+The Anderson Gallery
+Richmond, Virginia
+2022
+      </pre>
+    </section>
+
+    <section>
+      <h2>Awards</h2>
+      <pre>
+Best in Kinetic Imaging Award
+Undergraduate Juried Exhibition
+The Anderson Gallery
+2023
+
+Kinetic Imaging Student Work Feature
+2023
+
+Kinetic Imaging Award of Excellence
+Spring 2023
+
+Best in Kinetic Imaging Award
+Undergraduate Juried Exhibition
+The Anderson Gallery
+2022
+
+Kinetic Imaging Student Work Feature
+2022
+      </pre>
+    </section>
+
+    <section>
+      <h2>Professional Experience</h2>
+      <pre>
+Audiovisual Technician
+Virginia Commonwealth University Student Commons
+Richmond, VA
+02/1/23 – Present
+
+Production Assistant
+WVCW Student Radio
+Richmond, VA
+12/18/22
+
+Artist Collaborator Intern
+Artspace Gallery
+Richmond, VA
+12/10/22 – 05/05/23
+
+1708 Gallery Inlight Festival Volunteer
+1708 Gallery
+Richmond, VA
+11/12/21
+      </pre>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <pre>
+Adobe Premiere Pro
+Adobe Audition
+Adobe After Effects
+Adobe Photoshop
+Ableton Live
+Autodesk Maya
+Live Sound Mixing
+Dante Level 1 Certification
+Audiovisual Networking
+Art Handling
+      </pre>
+    </section>
+  </main>
 
   <div class="footer">
     <a href="index.html">← Back to Explorer</a>
