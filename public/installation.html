@@ -21,12 +21,11 @@
       background-color: black;
       color: white;
       font-family: 'Courier', monospace;
-      min-height: 100vh;
+      min-height: 200vh;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      
     }
-
     .header {
       display: flex;
       justify-content: space-between;
@@ -34,9 +33,37 @@
       font-size: 1.5em;
       flex-wrap: wrap;
     }
+    .content {
+      max-width: 700px;
+      margin: 30px auto 40px auto;
+      padding: 0 50px;
+      line-height: 1.5;
+    }
+    .content img {
+      display: block;
+      margin: 0 auto;
+      max-width: 250px;
+      height: auto;
+    }
+    
 
-    .header div {
-      white-space: nowrap;
+    .video-link img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid white;
+      cursor: pointer;
+    }
+
+    .watch-link {
+      display: inline-block;
+      margin-top: 5px;
+      color: white;
+      text-decoration: none;
+      font-size: 0.85em;
+    }
+
+    .watch-link:hover {
+      text-decoration: underline;
     }
 
     .footer {
@@ -48,13 +75,26 @@
     .footer a {
       color: white;
       text-decoration: none;
-      border-bottom: 1px solid white;
+    
     }
 
     .footer a:hover {
       text-decoration: underline;
     }
-
+    .title {
+      text-align: center;
+    }
+    .sound-block {
+      margin-bottom: 40px;
+    }
+    .sound-block label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 1.1em;
+    }
+     .watch-link-wrapper {
+  text-align: center;
+}
     @media (max-width: 500px) {
       .header {
         flex-direction: column;
@@ -69,6 +109,56 @@
     <div>E.M. Blasdell</div>
     <div>Installation</div>
   </div>
+
+  <div class="content">
+    
+    <div class="title">
+      <i>Cyanotypes</i>
+    </div>
+    <a href="https://drive.google.com/file/d/1mb_Ktuu8-OaU-agA98R4Iav5RqdxHFPX/view?usp=sharing" class="video-link">
+      <img src="assets/images/installation/cyan.jpg" alt="Watch Video">
+    </a>
+
+    <p>
+    Cyanotypes is a six channel sound collage consisting of five individual voices and their associated ramblings, each assigned to an individual speaker. The listener is encouraged to move around the space to listen to the individual speakers or simply sit and take in the stories as each voice slowly modulates louder and softer.  Utilizing five voices and five silhouettes, this installation explores the tension between vulnerability and humor through the stories we tell.
+    </p>
+    <div>
+      <a class="watch-link" href="https://drive.google.com/file/d/1mb_Ktuu8-OaU-agA98R4Iav5RqdxHFPX/view?usp=sharing">Watch the Video →</a>
+    </div>
+    <!-- <div class = "watch-link-wrapper">
+      <div class = "sound-block">
+      <audio id="sound4" controls>
+          <source src="assets/sound/BTWMIGsound2.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div> -->
+  </div>
+  
+  <div class="content">
+    <div class="title"><i>Memory as a Mass</i></div>
+  
+   <a href="https://drive.google.com/file/d/1rLtcyp76RAuqY2TcSydhaZklsHrB6s71/view?usp=sharing" class="video-link">
+      <img src="assets/images/installation/memory.png" alt="memory Video">
+    </a>
+
+    <p>
+    
+    Memory as a Mass concerns the experience of life through sensory and emotionally charged events. Experiences of pleasure, pain, and the people met remain fresh in the memory while the rest is a wash of uncertainty. This installation includes a slide projector, a wooden table, 140 35mm found slides, a small area rug, a slide projection screen, and sun bleached red construction paper fastened to the windows with black duct tape. Found experiences seem almost dreamlike as the broken projector shuffles and advances to individual film slides at random. The warm pink light filtering through the construction paper is reminiscent of a bodily interior. The 1960s-1970s era images include family photos, domestic interiors, surgical documentation, faces, landscapes, and mistakenly overexposed photos. Family photos invoke feelings of happiness while the appearance of a surgery is a quick reminder of painful memories. Hazy, overexposed images suggest a feeling of confusion in the attempt to remember something you can’t. Uncomfortably close photographs of faces persuade the viewer to endure direct eye contact with them for twenty seconds, making one feel that they are observed, even from their own memory. 
+    </p>
+    <div>
+      <a class="watch-link" href="https://drive.google.com/file/d/1rLtcyp76RAuqY2TcSydhaZklsHrB6s71/view?usp=sharing">Watch the Video →</a>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="title"><i>Egret</i></div>
+    <a href="https://drive.google.com/file/d/1lk3HBSxATf3Ad29SO8xQ-f54oqHA5Qxy/view?usp=sharing" class="video-link">
+      <img src="assets/images/installation/egret.png" alt="egret Video">
+    </a>
+  </div>
+
+
 
 
   <div class="footer">

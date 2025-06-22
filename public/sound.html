@@ -17,12 +17,11 @@
       background-color: black;
       color: white;
       font-family: 'Courier', monospace;
-      min-height: 100vh;
+      min-height: 200vh;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
     }
-
     .header {
       display: flex;
       justify-content: space-between;
@@ -30,23 +29,21 @@
       font-size: 1.5em;
       flex-wrap: wrap;
     }
-
-    .header div {
-      white-space: nowrap;
-    }
-
     .content {
-      text-align: center;
-      padding: 40px 20px;
-      max-width: 700px;
-      margin: 0 auto;
-      line-height: 1.6;
+      max-width: 800px;
+      margin: 30px auto 40px auto;
+      padding: 0 50px;
+      line-height: 1.5;
     }
-
+    .content img {
+      display: block;
+      margin: 0 auto;
+      max-width: 250px;
+      height: auto;
+    }
     .sound-block {
       margin-bottom: 40px;
     }
-
     .sound-block label {
       display: block;
       margin-bottom: 10px;
@@ -112,11 +109,12 @@
     <a href="https://drive.google.com/file/d/1AFh4j96t6UwOX3FqAzWm2KNZk8w7ts6q/view?usp=sharing" class="video-link">
       <img src="assets/images/windblows.png" alt="Watch Video">
     </a>
-<div class = "watch-link-wrapper">
+
     <p>
     	<i>Because The Wind Makes It Go</i> is a four channel sound installation consisting of four speakers, a laptop, and a mixer. The piece uses hydrophone recordings and coded Max devices to create a conversational effect between the four channels. The piece is programmed to vary as parameters such as reverb and panning are automated to change over time. 
 	This piece was inspired by psychologist Jean Piaget and his research into brain development by interviewing young children. His research demonstrates how children tend to personify things they don’t fully understand, such as nature. In one of his interviews, he asks a child why the moon follows them when they go for walks, and their response was, “because the wind makes it go.”
   </p>
+<div class = "watch-link-wrapper">
     <div class="sound-block">
       <audio id="sound4" controls>
         <source src="assets/sound/BTWMIGsound2.mp3" type="audio/mpeg">
